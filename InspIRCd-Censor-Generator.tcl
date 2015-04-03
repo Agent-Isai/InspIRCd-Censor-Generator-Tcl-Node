@@ -1,7 +1,5 @@
 #InspIRCd-Censor-Generator.tcl Created by AlphaTech
 #Fill out this configuration to get started!
-#InspIRCd-Censor-Generator.tcl Created by AlphaTech
-#Fill out this configuration to get started!
 
 #Set this to "file" to load a file. Set this to "http" to load an HTTP document.
 set type "http"
