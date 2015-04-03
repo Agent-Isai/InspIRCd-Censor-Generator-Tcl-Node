@@ -2,7 +2,7 @@
 InspIRCd-Censor-Generator is a censor.conf generator for InspIRCd coded in tcl and executable by tclsh
 
 # What does this software do?
-This software formats any given list into the proper list for InspIRCd's censor.conf. The software will accept any webpage or file containing words and format them. If you supply it with badword it will format badword into &gt;badword text="badword" replace="&gt;censored&lt;"&lt;. This can be useful for large lists of bad words to add. You could also set this up to a crontab to verify you are blocking the newest of swear words that the cool teens these days use.
+This software formats any given list into the proper list for InspIRCd's censor.conf. The software will accept any webpage or file containing words and format them. If you supply it with badword it will format badword into &lt;badword text="badword" replace="&lt;censored&gt;"&lt;. This can be useful for large lists of bad words to add. You could also set this up to a crontab to verify you are blocking the newest of swear words that the cool teens these days use.
 
 # Where are some places that I can find these badword lists?
 - http://www.bannedwordlist.com/lists/swearWords.txt
