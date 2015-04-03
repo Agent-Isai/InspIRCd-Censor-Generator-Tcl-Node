@@ -17,6 +17,7 @@ Just download InspIRCd-Censor-Generator.tcl and place it in a directory.
 - Tclsh
 
 # Usage
+- Quick Version: Type "wget https://raw.githubusercontent.com/AlphaT3ch/InspIRCd-Censor-Generator/master/InspIRCd-Censor-Generator.tcl && tclsh InspIRCd-Censor-Generator.tcl > censor.conf && rm InspIRCd-Censor-Generator.tcl" in the terminal to quickly save it as censor.conf
 - Open InspIRCd-Censor-Generator.tcl and edit the configuration
 - Run "tclsh InspIRCd-Censor-Generator.tcl" and make sure that is the output you are looking for
 - Run "tclsh InspIRCd-Censor-Generator.tcl > censor.conf" where censor.conf is the output file
