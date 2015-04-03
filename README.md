@@ -15,6 +15,7 @@ Just download InspIRCd-Censor-Generator.tcl and place it in a directory.
 # System Requirements
 - Tcl 8.5
 - Tclsh
+- The HTTP package version 1.0 if downloading the list via HTTP
 
 # Usage
 - Quick Version: Type "wget https://raw.githubusercontent.com/AlphaT3ch/InspIRCd-Censor-Generator/master/InspIRCd-Censor-Generator.tcl && tclsh InspIRCd-Censor-Generator.tcl > censor.conf && rm InspIRCd-Censor-Generator.tcl" in the terminal to quickly save it as censor.conf
