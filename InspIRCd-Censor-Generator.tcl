@@ -8,7 +8,7 @@ set type "http"
 set file "http://www.bannedwordlist.com/lists/swearWords.txt"
 
 #Set this to what to replace the bad words with.
-set replace "<censored>"
+set replace "<CENSORED>"
 
 #DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW!
 #DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW! - DON'T EDIT BELOW!
