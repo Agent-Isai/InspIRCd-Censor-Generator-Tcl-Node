@@ -1,5 +1,5 @@
 # InspIRCd-Censor-Generator
-InspIRCd-Censor-Generator is a censor.conf generator for [InspIRCd](https://github.com/inspircd/inspircd) coded in [tcl](https://github.com/tcltk/tcl) and executable by tclsh
+InspIRCd-Censor-Generator is a censor.conf generator for [InspIRCd](https://github.com/inspircd/inspircd) coded in JavaScript and executable by Node.js or io.js
 
 # What does this software do?
 This software formats any given list into the proper list for [InspIRCd's censor.conf](https://github.com/inspircd/inspircd/blob/master/docs/conf/censor.conf.example). The software will accept any webpage or file containing words and format them. If you supply it with badword it will format badword into &lt;badword text="badword" replace="&lt;censored&gt;"&gt;. This can be useful for large lists of bad words to add. You could also set this up to a crontab to verify you are blocking the newest of swear words that the cool teens these days use.
