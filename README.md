@@ -29,7 +29,7 @@ InspIRCd-Censor-Generator es un generador censor.conf para InspIRCd codificado e
 # ¿Qué hace este software?
 Este software formatea cualquier lista dada en la lista adecuada para censor.conf de InspIRCd. El software aceptará cualquier página web o un archivo que contiene las palabras y darles formato. Si suministra con badword se dará formato badword en & lt; badword text = "bad words" replace = "& lt; censurado & gt;" & gt ;. Esto puede ser útil para las grandes listas de malas palabras que desea agregar. También puede configurar esto a un crontab para verificar que está bloqueando el más nuevo de malas palabras que los adolescentes frescas estos días utilizan.
 
-# ¿Dónde están algunos lugares que puedo encontrar estas listas BADWORD?
+# ¿Dónde están algunos lugares que puedo encontrar estas listas de malas palabras?
 - Http://www.bannedwordlist.com/lists/swearWords.txt
 - Https://code.google.com/p/badwordslist/downloads/detail?name=badwords.txt
 - Estoy seguro de que hay más, pero tenemos Google para que
@@ -43,7 +43,7 @@ Sólo tienes que descargar InspIRCd-Censor-Generator.tcl y colocarlo en un direc
 - La versión del paquete HTTP 1.0 si la descarga de la lista a través de HTTP
 
 # Uso
-- Versión rápida: Tipo "wget https://raw.githubusercontent.com/AlphaT3ch/InspIRCd-Censor-Generator/master/InspIRCd-Censor-Generator.tcl && Tclsh InspIRCd-Censor-Generator.tcl> censor.conf && rm InspIRCd-Censor-Generator.tcl "en la terminal para guardar rápidamente como censor.conf
-- Abrir InspIRCd-Censor-Generator.tcl y editar la configuración
+- Versión rápida: En el terminal, escriba "wget https://raw.githubusercontent.com/AlphaT3ch/InspIRCd-Censor-Generator/master/InspIRCd-Censor-Generator.tcl && Tclsh InspIRCd-Censor-Generator.tcl> censor.conf && rm InspIRCd-Censor-Generator.tcl " para guardar rápidamente como censor.conf
+- Abra InspIRCd-Censor-Generator.tcl y cambie la configuración
 - Ejecutar "tclsh InspIRCd-Censor-Generator.tcl" y asegurarse de que es la salida que busca
 - Ejecutar "tclsh InspIRCd-Censor-Generator.tcl> censor.conf" donde censor.conf es el archivo de salida
